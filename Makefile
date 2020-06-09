@@ -1,4 +1,4 @@
-SOURCE="http://mirror.ibcp.fr/pub/eclipse//technology/epp/downloads/release/2019-09/R/eclipse-php-2019-09-R-linux-gtk-x86_64.tar.gz"
+SOURCE="http://mirror.dkm.cz/eclipse/technology/epp/downloads/release/2020-03/R/eclipse-php-2020-03-R-linux-gtk-x86_64.tar.gz"
 DESTINATION="build.tar.bz2"
 OUTPUT="Eclipse-PDT.AppImage"
 

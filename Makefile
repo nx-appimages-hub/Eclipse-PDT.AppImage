@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-SOURCE="http://mirror.ibcp.fr/pub/eclipse/technology/epp/downloads/release/2020-06/R/eclipse-php-2020-06-R-linux-gtk-x86_64.tar.gz"	
+SOURCE="http://mirror.ibcp.fr/pub/eclipse/technology/epp/downloads/release/2020-06/R/eclipse-php-2020-06-R-linux-gtk-x86_64.tar.gz"
 DESTINATION="build.tar.bz2"
 OUTPUT="Eclipse-PDT.AppImage"
 
@@ -41,5 +41,5 @@ all:
 	chmod +x $(OUTPUT)
 
 	rm -rf ./eclipse ./usr
-	rm -rf ./AppDir/application
+	rm -rf ./AppDir/application ./AppDir/jre
 	rm -f $(DESTINATION)
